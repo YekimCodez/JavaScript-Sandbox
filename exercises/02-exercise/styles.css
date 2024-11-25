@@ -1,0 +1,49 @@
+*, *::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(36, 100%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input[type="text"] {
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: hsl(180, 100%, 50%);
+    color: hsl(180, 100%, 97%);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: hsl(180, 67%, 76%);
+    color: hsl(0, 2%, 37%);
+}
+
+#warningMessage {
+    display: none;
+    color: hsl(0, 100%, 50%);
+}
+
+#confirmMessage {
+    display: none;
+    color: hsl(120, 91%, 48%);
+}

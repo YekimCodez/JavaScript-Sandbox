@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: hsl(122, 60%, 49%);
+    color: hsl(34, 78%, 91%);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(123, 40%, 45%);
+}
