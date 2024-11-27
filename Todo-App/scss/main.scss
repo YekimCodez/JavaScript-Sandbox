@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    input[type=text] {
+        padding: 0.5rem 2.5rem;
+    }
+
+    #task-btn {
+        padding: 0.5rem 2.5rem;
+        margin-top: 10px;
+    }
+}
