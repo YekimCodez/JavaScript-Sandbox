@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../Todo-App/scss/main.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;EACA","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../../../Todo-App/scss/_resets.scss","../../../Todo-App/scss/main.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;ACGJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAGJ;EACI;EACA","file":"main.css"}

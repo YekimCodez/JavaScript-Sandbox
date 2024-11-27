@@ -1,7 +1,7 @@
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-}
+@import './resets';
+@import './colors';
+@import './typography';
+@import './variables';
 
 body {
     display: flex;
