@@ -1,7 +1,7 @@
+@import './variables';
 @import './resets';
 @import './colors';
 @import './typography';
-@import './variables';
 
 body {
     display: flex;
@@ -10,8 +10,15 @@ body {
     align-items: center;
     flex-direction: column;
 
+    h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;        
+    }
+
     input[type=text] {
         padding: 0.5rem 2.5rem;
+
     }
 
     #task-btn {
