@@ -1,6 +1,7 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .roboto-thin {
@@ -86,11 +87,20 @@ body h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: hsl(0, 0%, 35%);
 }
 body input[type=text] {
   padding: 0.5rem 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 body #task-btn {
   padding: 0.5rem 2.5rem;
   margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: hsl(192, 75%, 59%);
+  color: hsl(0, 0%, 35%);
+  font-size: 1rem;
 }/*# sourceMappingURL=main.css.map */
