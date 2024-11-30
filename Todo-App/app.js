@@ -1,10 +1,7 @@
-//Collect user input e.g, tasks
-const input = document.getElementById('text').value;
-const inputValue = document.getElementById("demo").value;
 
-
-const button = function () {
-    return document.getElementById('task-btn');
+const getValue = function () {
+    let myInput = document.getElementById('myInput');
+    let inputValue = myInput.value;    
 }
 
 console.log(inputValue);
