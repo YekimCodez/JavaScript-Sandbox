@@ -1,5 +1,8 @@
+// Ways to declare variables
+// var, let , const
+
 let firstName = "Mike";
-let lastName = "Doe";
+let lastName = "Doughty";
 
 // console.log(firstName, lastName, age); // Here the variable age is inaccessible because it hasn't been defined/declared ast yet.
 
@@ -14,11 +17,11 @@ console.log(age);
 let score;
 
 score = 1;
+score = 10;
 
-console.log(score);
+console.log(score++);
 
-if (true) {
-    score = score + 1;
-}
 
-console.log(score);  
+// const variables cannot be reassigned(Uncaught TypeError; assignment to constant variable.)
+const x = 100;
+x = 200;
