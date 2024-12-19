@@ -1,39 +1,42 @@
-// Ways to declare variables
-// var, let , const
+// // Ways to declare variables
+// // var, let , const
 
-let firstName = "Mike";
-let lastName = "Doughty";
+// let firstName = "Mike";
+// let lastName = "Doughty";
 
-// console.log(firstName, lastName, age); // Here the variable age is inaccessible because it hasn't been defined/declared ast yet.
+// // console.log(firstName, lastName, age); // Here the variable age is inaccessible because it hasn't been defined/declared ast yet.
 
-console.log(firstName, lastName);
+// console.log(firstName, lastName);
 
-// Declare variables first
+// // Declare variables first
 
-let age = 40; //  if age is not delared before the console.log and thus cannot be used.
+// let age = 40; //  if age is not delared before the console.log and thus cannot be used.
 
-console.log(age);
+// console.log(age);
 
-let score;
+// let score;
 
-score = 1;
-score = 10;
+// score = 1;
+// score = 10;
 
-console.log(score++);
+// console.log(score++);
 
 
-// const variables cannot be reassigned(Uncaught TypeError; assignment to constant variable.)
-const arr = [1,2,3,4];
+// // const variables cannot be reassigned(Uncaught TypeError; assignment to constant variable.)
+// const arr = [1,2,3,4];
 
-arr.push(5);
+// arr.push(5);
 
-console.log(arr);
+// console.log(arr);
 
-const person = {
-    name: 'Mike',
-    email: 'studentprodigy@gmail.com'
-};
+// const person = {
+//     name: 'Mike',
+//     email: 'studentprodigy@gmail.com'
+// };
 
-person.name = 'Jon';
+// person.name = 'Jon';
 
-console.log(person);
+console.log("Hello World");
+console.log(typeof "Mike");
+console.log(typeof 43);
+console.log(typeof true);
