@@ -9,14 +9,3 @@ body {
     font-family: sans-serif;
 }
 
-#cars {
-    line-height: 1.6;
-}
-
-.car-item {
-    padding: 10px;
-    margin: 5px 0;
-    background-color: hsl(0, 0%, 83%);
-    border: 1px solid hsl(0, 0%, 80%);
-    color: hsl(0, 0%, 0%);
-}

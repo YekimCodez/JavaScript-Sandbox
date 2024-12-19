@@ -23,5 +23,17 @@ console.log(score++);
 
 
 // const variables cannot be reassigned(Uncaught TypeError; assignment to constant variable.)
-const x = 100;
-x = 200;
+const arr = [1,2,3,4];
+
+arr.push(5);
+
+console.log(arr);
+
+const person = {
+    name: 'Mike',
+    email: 'studentprodigy@gmail.com'
+};
+
+person.name = 'Jon';
+
+console.log(person);
