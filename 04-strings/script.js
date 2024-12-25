@@ -2,7 +2,7 @@
 const myVariable = "Mathematics";
 
 //String methods
-// console.log(myVariable.length);
+console.log(myVariable.length);
 // console.log(myVariable.charAt(5));
 // console.log(myVariable.indexOf("emat"));
 // console.log(myVariable.lastIndexOf("mat"));
