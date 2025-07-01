@@ -1,0 +1,46 @@
+Build a simple app (entirely in JavaScript using createElement and the DOM) that:
+
+Takes a user's first name, last name, and favorite color.
+
+When the button is clicked:
+
+It displays a custom greeting:
+“Good day, [FirstName] [LastName]! We hope you’re enjoying your day in [color]!”
+
+The background of the page changes to the selected color.
+
+All inputs are cleared afterward.
+
+✅ Features to Include:
+Input fields for:
+
+First name
+
+Last name
+
+Favorite color (e.g., blue, red, #00ff00)
+
+A submit button
+
+A paragraph for the message display
+
+Some basic validation (don't show the message unless all fields are filled)
+
+A clean, styled layout using .style
+
+🧠 Concepts You’ll Use:
+createElement, appendChild
+
+addEventListener
+
+template literals
+
+value.trim()
+
+style.backgroundColor
+
+Optional: your own capitalize() function!
+
+📌 Bonus Challenge (Optional):
+If the color entered is invalid (e.g., “bananas”), catch the error and display:
+“Oops! [color] isn’t a valid color. Try again.”

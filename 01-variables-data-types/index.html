@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Sandbox | Variables & data types</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: hsl(0, 0%, 0%);
-            color: hsl(180, 100%, 97%);
-            font-family: sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="/01-variables-data-types/styles.css">
 </head>
 <body>
-    <h1 id="main">Hello world</h1>
+    <h1 id="main">Todo List</h1>
+
+    <div class="todoForm">
+        <button class="add" id="add">Add task</button>
+        <input type="text" name="add" id="add_task" placeholder="Add a task" required/>
+    </div>
+
+    <ul id="task_list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
      
-    <script src="main.js"></script>
+    <script src="todo.js"></script>
 </body>
 </html>

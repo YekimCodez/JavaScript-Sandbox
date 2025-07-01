@@ -10,27 +10,33 @@ body {
     align-items: center;
     flex-direction: column;
 
-    h1 {
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        color: $primary-dark-color;        
-    }
+    .container {
+        width: 80%;
 
-    input[type=text] {
-        padding: 0.5rem 2.5rem;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 1rem;
-    }
 
-    #task-btn {
-        padding: 0.5rem 2.5rem;
-        margin-top: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-        background-color: $primary-color;
-        color: $primary-dark-color;
-        font-size: $font-size-base;
-    }
+        h1 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: $primary-dark-color;        
+        }
+    
+        input[type=text] {
+            padding: 0.5rem 2.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .submit-btn {
+            padding: 0.5rem 2.5rem;
+            margin-top: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 1px;
+            background-color: $primary-color;
+            color: $primary-dark-color;
+            font-size: $font-size-base;
+        }  
+    }  
 }
