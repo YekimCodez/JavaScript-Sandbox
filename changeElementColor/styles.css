@@ -1,0 +1,18 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    transition: background-color 0.3s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    background-color: lightgreen;
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+}
