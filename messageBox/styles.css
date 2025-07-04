@@ -95,3 +95,17 @@ body {
     font-size: 0.8em;
     transition: background-color 0.3s ease;
 }
+
+.btn:hover {
+    background-color: rgb(50, 80, 100);
+}
+
+.message {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    font-family: monospace;
+    overflow-y: auto;
+}
